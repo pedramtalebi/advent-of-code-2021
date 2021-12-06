@@ -1,0 +1,49 @@
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Eclipse project files
+.classpath
+.project
+.settings
+
+# Build outputs
+*.class
+target
+dependency-reduced-pom.xml
+out
+
+# OS files
+.DS_Store
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Terraform files
+*.plan
+.terraform/
+terraform.tfstate.d/
+
+.java-version
+
+# Ignore Gradle project-specific cache directory
+.gradle
+gradle-local.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore Gradle build output directory
+build
+
+.env
+
+# Secure files
+*.key
+
+~
